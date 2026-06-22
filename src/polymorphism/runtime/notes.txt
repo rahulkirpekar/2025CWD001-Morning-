@@ -1,0 +1,65 @@
+Runtime Polymorphism:-
+---------------------
+
+	A(Parent Class)
+	|
+---------------------
+B		C
+
+	// Static/Early Binding 
+	A objA = new A();
+
+	// Late/Dynamic Binding / Polymorphisc Object / Upcasting
+	A objA = new B();
+
+	objA = new C();
+
+	//C objC = new A();// C.E
+
+			Person(void getBehave()--Human)
+			  |
+	-----------------------------------------------------------------
+	|		  |			|			|
+     School		 Org		   PublicPlace		       Home
+	|		  |			|			|
+void getBehave()  void getBehave()     void getBehave()           void getBehave()
+	|		  |			|			|
+     Student          Employee               Citizen		       Child
+
+	Person person = null;
+
+	person = new School();
+	person.getBehave();
+------------------------------------
+	person = new Org();
+	person.getBehave();
+------------------------------------
+	person = new PublicPlace();
+	person.getBehave();
+------------------------------------
+	person = new Home();
+	person.getBehave();
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+OOP's (Object Oriented Programming) Features:-
+------------------------------------------------
+	1. class
+	2. object
+	3. encapsulation
+		|
+	4. inheritance
+		|
+	5. polymorphism
+		|
+	6. abstraction
+-----------------------------------------------------------------

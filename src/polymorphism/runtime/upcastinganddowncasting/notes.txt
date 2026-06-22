@@ -1,0 +1,48 @@
+
+
+				Person(getBehave()---Human Behaviour)
+				  |
+	---------------------------------------------------------------------------------
+	|			  |				|			|
+     School		         Org			   PublicPlace		       Home		   getExamResult(); 	     getSalary();		  getPublicEvent();	   getMoviewOnTime();
+	 	
+    getBehave()		     getBehave()		   getBehave()                getBehave()	 
+  	|			  |				|			|
+     Student		       Employee                     Citizen                    School	
+	
+	Person person = null;
+
+
+	// Polymorphisc Object / Upcasting
+	person = new School();
+	person.getBehave();
+
+	//person.getExamResult();//C.E
+
+
+	if(person instanceof School)
+	{
+		// Dowancasting
+		School student = (School)person;
+		student.getExamResult();// Compiletime PASS
+	}
+	else if(person instanceof Org)
+	{
+		// Dowancasting
+		Org emp = (Org)person;
+		emp.getSalary();
+	}
+	else if(person instanceof PublicPlace)
+	{
+		// Dowancasting
+		PublicPlace citizen = (PublicPlace)person;
+		citizen.getPublicEvent();
+	}
+	else if(person instanceof Home)
+	{
+		// Dowancasting
+		Home child = (Home)person;
+		child.getMoviewOnTime();
+	}
+
+

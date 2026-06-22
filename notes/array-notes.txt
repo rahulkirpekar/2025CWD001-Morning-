@@ -1,0 +1,30 @@
+Array:-
+------
+Array Declaration :-
+----------------------
+	int a[] = new int[5];
+	int[] a = new int[5];
+	int []a = new int[5];
+	int [] a = new int[5];
+
+	int [] a = null;
+	a = new int[5];
+
+Array Declaration & Initialisation :-	
+-----------------------------------------
+	int a[] = {10,20,30,40,50};
+	int a[] = new int[]{10,20,30,40,50};
+
+/*
+	float b[] = new float[5];
+
+	char c[] = new char[5];
+
+	long z[] = new long[5];
+*/
+
+
+	   a[0]	  a[1]    a[2]   a[3]     a[4]
+	-----------------------------------------
+	|	|	|	|	|	|	
+	-----------------------------------------

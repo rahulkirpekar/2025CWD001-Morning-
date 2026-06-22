@@ -1,0 +1,29 @@
+Inheritance:- Code Reusuvbility betweel class
+---------------
+
+			Type of Inheritance
+			---------------------
+
+					    interface(Abstraction)	
+						|
+		    -------------------------------------------------------------	
+		     |								|
+		  Java-Class						   	|
+		     |								|
+    ---------------------------------------------		   ---------------------------
+     |		     |				|		    |			    |	
+1. Single	2. MultiLevel		3. Hierarchical		4. Multiple		5. Hybrid
+
+						A		A	B			A		
+    A			A			| 		|	|			|
+    |			|		-----------------	----------		-----------------
+    B			B		|		|	    |			|		|
+			|		B		C	    C			B		C
+			C								|		|					
+											-----------------	
+												|
+												D
+
+
+
+					
