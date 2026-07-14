@@ -1,0 +1,41 @@
+Abstraction:- To increse Security of Application 
+--------------
+
+			Type of Abstraction	
+			---------------------
+	1. Abstract Class		2. interface(Pure Abstarction)
+	    (0% to 100%)		    100%	
+
+
+			Person(getBehave()---Human)
+			  |
+  -----------------------------------------------------------------------
+  |			  |			|			|
+School		         Org		      PublicPlace	      Home		
+getBehave()		getBehave()	      getBehave()	    
+  |			  |			|			|
+Student		       Employee              Citizen		      Child
+
+	Person person = new Home();
+	person.getBehave();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

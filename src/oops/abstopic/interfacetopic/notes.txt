@@ -1,0 +1,80 @@
+Abtraction:-
+-------------
+	1. Abstract Class		2. Interface
+	     0 to 100%			    100%	
+-------------------------------------------------------------------------------------
+
+Interface(100% absttraction):-
+--------------------------------
+
+	1.Constant Variables--"public static final"
+	--------------------------------------------
+		int NO1 = 10;// public static final 
+		public static int NO2 = 10;// final 
+		public  final int NO3 = 10;// static 
+		static final int NO4 = 10;// public 
+		public static final int NO5 = 10;
+
+	2. Methods:-
+	------------
+		===> Abstract Methods(public abstract)---Rules
+			void test1();// public abstract
+			public void test2();// abstract
+			abstract void test3();// public 
+
+
+		===> Non-Abstract Methods(static(8),default(8),private(9))
+
+		static void test4()
+		{
+
+		}
+		default void test5()
+		{
+			test6();
+		}
+		private void test6()
+		{
+
+		}
+
+
+
+			Trustees(interface)--(5)
+			   |
+			Principal(interface)(3)
+		   	   |
+		      VicePrincipal(Abstract Class)(2)
+		   	   |
+	-------------------------------------------------
+	|(10)			 |(10)			|(10)
+    Management(C)	   	HOD(AC)	   	ClassTeacher(AC)
+				 |			|
+			     FacutyStaff(C)	    Students(C)
+		
+
+			
+	class		interface		interface
+	  |--extends	   |--extends		   |--implements
+	class		interface		 class
+
+
+	class/AClass
+	   |----X(Not Possible in Java)
+	interface
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+

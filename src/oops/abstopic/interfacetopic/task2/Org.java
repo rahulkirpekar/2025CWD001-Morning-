@@ -1,0 +1,13 @@
+package oops.abstopic.interfacetopic.task2;
+
+public class Org implements Person
+{
+	public void getBehave() 
+	{
+		System.out.println("Org - getBehave() : Employee Behaviour");
+	}
+	public void getSalary() 
+	{
+		System.out.println("Org - getSalary() : Employee Salary");
+	}
+}
