@@ -39,8 +39,8 @@ Ways to create String class Object:-
 
 Object Equality:-
 -------------------
-			1. referenceBased(references ==	)		2. valueBased(values)(.equals method)
-			--------------------------------		-------------------------------------
+			1. referenceBased(references ==	)			2. valueBased(values)(.equals method)
+			--------------------------------				-------------------------------------
 				SOP(name1==name2);// true                     SOP(name1.equals(name2));//  true
 				SOP(name1==name3);// false                    SOP(name1.equals(name3));//  false
 				SOP(name1==name4);// true                     SOP(name1.equals(name4));//  true
@@ -64,9 +64,6 @@ Object Equality:-
 				SOP(name6==name7);// true	              SOP(name6.equals(name7));//  true
 
 
-
-
-
 	2. By 'new' keyword Way:-
 	-----------------------------------------------------
 
@@ -75,13 +72,15 @@ Object Equality:-
 		String name10 = name8;
 		String name11 = new String("technosoft");	
 
-
-
 Object Equality:-
 -------------------
 			1. referenceBased(references)			2. valueBased(values)
 			-----------------------------			---------------------
-			
+			SOP(name8==name9);			                	SOP(name8.equals(name9));			
+			SOP(name8==name10);			                	SOP(name8.equals(name10));			
+			SOP(name8==name11);                         	SOP(name8.equals(name11));
+			SOP(name9==name11);                         	SOP(name9.equals(name11));
+			SOP(name10==name11);							SOP(name10.equals(name11));
 
 
 
