@@ -7,10 +7,10 @@ public class TestApp2
 		System.out.println("2. By 'new' keyword Way:-");
 		System.out.println("-----------------------------------------------------");
 
-			String name8 = new String("royal");
-			String name9 = new String("royal");	
-			String name10 = name8;
-			String name11 = new String("technosoft");	
+		String name8 = new String("royal");
+		String name9 = new String("royal");	
+		String name10 = name8;
+		String name11 = new String("technosoft");	
 
 //	Object Equality:-
 //	-------------------

@@ -1,0 +1,84 @@
+Exception - Abnormal Scenario -- code crashed--JVM Abnormal Terminate
+------------
+
+	Statement---1
+	Statement---2
+	Statement---3
+	Statement---4
+	Statement---5
+
+	10 / 0; // abnormal scenario --code crashed
+
+	Statement---6
+	Statement---7
+	Statement---8
+	Statement---9	
+	Statement---10
+-----------------------------------------------------------------------------------------------------------------------------
+
+						Hierarchy of Exception
+						-----------------------
+						
+						Throwable(C)
+						    |
+						Exception(C)
+						    |
+						    |
+						    |
+		----------------------------------------------------------------------------
+		|--1. checked Exception(Compileetime--Compiler)			|--2. Un-checked Exception(Runtime--JVM)
+	--SQLException						 	RuntimeException(Class)	
+	--IOException								|
+	--ClassNotFoundException					--ArithmeticException
+	--FileNotFoundExcption						--NullPointerException
+												--ArrayIndexOutofBoundException
+												--NumberFormateException
+												--StringIndexoutofBoundException
+												--ClassCastException
+												--InputMismatchException,...
+									
+
+
+				Type of Exception
+				-------------------
+	1. Checked Exception			2. UnChecked Exception
+	  Compiletime Exception			   Runtime Exception
+		|					|
+	     Compiler				      Runtime--JVM	
+
+
+
+
+
+
+
+-----------------------------------
+Rules of Exception Handling with Method Overriding
+----------------------------------------------------------
+
+There are many rules if we talk about method overriding with exception handling.
+
+Some of the rules are listed below:
+
+==> If the superclass method does not declare an exception
+
+	--> subclass overridden method cannot declare the checked exception 
+	--> but it can declare unchecked exception.
+
+==> If the superclass method declares an exception, 
+	--> subclass overridden method can declare same, 
+	--> subclass exception 
+	--> or no exception 
+	--> but cannot declare parent exception.
+
+
+
+
+
+
+
+
+
+	
+			
+			
