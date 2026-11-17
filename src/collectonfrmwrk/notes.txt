@@ -1,0 +1,78 @@
+Array Limitations:-
+---------------------
+
+	int a[] = new int[5];
+
+	1. TYPE
+	2. SIZE
+
+Collection Framework:- To overcome array limitations.
+---------------------
+			Hieararchy of Collection---[java.util.*]
+			-------------------------
+
+				Iterable(I)-------------------------------------------------------
+				   |								|
+				Collection(I)							|
+				   |								|
+				   |Data--value							|
+				   |								|
+	---------------------------------------------------------				|
+	|			   |				|				|(Key,Value)
+      List(I)			Set(I)			     Queue(I)			      Map(K,V)			
+	|			   |				|				|
+ AbstractList(AC)	    AbstractSet(AC)		  AbstractQueue(AC)		  AbstractMap(AC) 				
+	|			   |				|				|
+ - ArrayList(C)		   --HashSet(C)			--PriorityQueue(C)		--HashMap(C)
+ - LinkedList(C)	   --LinkedHashSet(C)								--LinkedHashMap(C)
+ - Vector(C)		   --TreeSet(C)										--TreeMap(C)
+
+
+
+			Object(toString())
+			   |	
+	primitive type  Wrapper class
+		  |	   |	
+		boolean--Boolean--toString()---value
+		byte-----Byte---toString()---value
+		char-----Character--toString()	---value
+		short----Short---toString()---value
+		int------Integer--toString()---value
+		long-----Long---toString()---value
+		float----Float--toString()---value
+		double---Double	--toString()---value
+
+
+  Sorting Techniques:-
+  ---------------------
+  	1. Comparable(I)
+  	2. Comparator(I)
+  	
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

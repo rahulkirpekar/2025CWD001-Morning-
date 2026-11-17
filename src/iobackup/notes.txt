@@ -1,0 +1,72 @@
+stream --- data flow(pipeline)
+-------
+
+	1. OutputStream(write)
+		System.out.println("Hellow");
+
+		System.out --> Console
+
+	2. InputStream(read)
+
+			Scanner sc = new Scanner(System.in);// Console
+			sc.nextInt();
+	
+
+	3. ErrorStream---Error log display
+
+		System.err.println("Hello world");
+
+		     	Data
+		        write
+		     OutputStream	
+	JavaProgram---------------->Console/FIle/socket
+
+		     	 Data
+		         read
+		      InputStream	
+	JavaProgram<-----------------Console/FIle/socket
+
+Ways to write/read Data from File:-
+----------------------------------
+
+1. Byte oriented way :-
+-------------------------	
+
+	1. String
+	2. Object(user Defined Class Objects)
+
+2. Character oriented way :-
+---------------------------
+	1. String
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

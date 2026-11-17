@@ -25,22 +25,22 @@ public class TestApp12
 		}
 	}
 	
-	public static void main(String[] args) 
+	public static void main(String[] args) throws IOException
 	{
 		Scanner sc= new Scanner(System.in);
 		
 		System.out.println("Enter Age for Vote : ");
 		int age = sc.nextInt();
 		
-		try 
-		{
+//		try 
+//		{
 			isValidForVote(age);
 			
-		} 
-		catch (IOException e) 
-		{
-			e.printStackTrace();
-		}
+//		} 
+//		catch (IOException e) 
+//		{
+//			e.printStackTrace();
+//		}
 	
 		System.out.println("General Statement");
 	}

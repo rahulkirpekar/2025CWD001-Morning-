@@ -1,0 +1,18 @@
+Innerclass:-
+--------------
+
+	class A
+	{
+		// Innerclass---> Nested Innerclass
+		static class B
+		{
+
+		}
+	}
+-----------------------------------------------------------------------------------
+Type of Innerclass:-
+---------------------
+	1. Member Innerclass
+	2. Anonymous Innerclass
+	3. Local Innerclass
+	4. Nested Innerclass
